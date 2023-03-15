@@ -16,54 +16,53 @@
 <body>
 <!-- Header section with website logo and navigation menu -->
 <header>
-    <div class="logo">
-        <a href="/">
-            <img src="logo.png" alt="My Website">
-        </a>
-    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Big Bite</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Recipes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home </a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Recipes</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
 </header>
 
 <!-- Main content section -->
-<main class="main-content">
+<main>
     <!-- Your content here -->
 
-    <div id="home-content" class="container">
+    <div id="main">
 
-        <section class="hero-section">
-            <div class="container">
-                <h2 class="hero-title">SIMPLE RECIPES MADE FOR<br>real, actual, everyday life.</h2>
-                <p class="hero-subtitle">From quick and easy dinners to irresistible desserts, find all the recipes you need
-                    to make more memories at home with a little less stress!</p>
-                <a class="btn btn-primary" href="#">Browse Recipes</a>
+        <div class="row p-0 m-0">
+
+            <div id="left-space" class="col-md-3 border-green">
+                <p>LEFT</p>
             </div>
-        </section>
+
+            <div id="middle-space" class="col-md-6 border-yellow">
+                <div class="container">
+                    <div class="hero-section border">
+                        <div class="border">
+                            <h2 class="hero-title border">SIMPLE RECIPES MADE FOR<br>real, actual, everyday life.</h2>
+                            <p class="hero-subtitle border">From quick and easy dinners to irresistible desserts, find
+                                all the
+                                recipes you need
+                                to make more memories at home with a little less stress!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="right-space" class="col-md-3 border-green">
+                <p>RIGHT</p>
+            </div>
+
+        </div>
 
     </div>
 
@@ -71,7 +70,7 @@
 </main>
 
 <!-- Footer section with copyright and contact information -->
-<footer>
+<!--<footer>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -97,7 +96,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer>-->
 
 
 <!-- Include the JavaScript file (if necessary) -->
